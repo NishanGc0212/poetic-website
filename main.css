@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #ffe6f0, #dbefff);
+    font-family: 'Georgia', serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 700px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    cursor: pointer;
+    font-size: 3em;
+    color: #cc3366;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  h1:hover {
+    color: #ff6699;
+  }
+  
+  .poetry {
+    display: none;
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #333;
+    margin-top: 20px;
+    white-space: pre-wrap;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 2.2em;
+    }
+  
+    .poetry {
+      font-size: 1.1em;
+    }
+  }
+  
